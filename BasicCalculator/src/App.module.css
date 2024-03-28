@@ -1,0 +1,12 @@
+.calculatorContainer{
+    border: 2px solid rgb(57, 55, 55);
+    width: 320px;
+    border-radius: 5px;
+    padding: 5px; 
+}
+
+.heading{
+    text-align: center;
+    font-size: 25px;
+}
+
