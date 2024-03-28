@@ -11,7 +11,8 @@ function App() {
           setDispValue("")
         }
         else if(buttonText === '='){
-
+          let result = eval(dispValue)
+          setDispValue(result)
         }
         else{
           let newDispVal = dispValue + buttonText;
