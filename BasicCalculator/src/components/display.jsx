@@ -1,7 +1,7 @@
 import styles from "./Display.module.css"
-function Display(){
+function Display({displayShown}){
     return(
-        <input className={styles.display} placeholder="Enter Expression here"></input> 
+        <input className={styles.display} placeholder="Enter Expression here" value={displayShown} readOnly></input> 
     )
 }
 
